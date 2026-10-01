@@ -1,0 +1,19 @@
+# Local browser profile contains cookies, login state, caches, and user data.
+chrome_profile/
+
+# Python-generated files and local environments.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration and secrets.
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system metadata.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
